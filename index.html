@@ -131,6 +131,18 @@
                 padding: 10px 20px;
             }
         }
+
+        /* Nova seção de História e Ganhos */
+        .historico, .ganhos {
+            margin-top: 20px;
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        .ganhos {
+            font-weight: bold;
+            color: #ff5722;
+        }
     </style>
     <script>
         function redirecionar() {
@@ -160,6 +172,17 @@
             Este link só pode ser aberto em um celular. Escaneie o QR Code para acessar:
         </p>
 
+        <!-- Nova Seção de História -->
+        <div class="historico">
+            <h2>Sobre a Lalamove</h2>
+            <p>A Lalamove é uma plataforma de entrega sob demanda que conecta motoristas e clientes de maneira rápida e eficiente. Com um simples cadastro, você pode começar a realizar entregas e ganhar dinheiro com flexibilidade e facilidade. Não perca a chance de fazer parte desse time!</p>
+        </div>
+
+        <!-- Nova Seção de Ganhos -->
+        <div class="ganhos">
+            <p>Ao se cadastrar e realizar 5 entregas, você ganha R$300! Aproveite essa oportunidade de aumentar sua renda.</p>
+        </div>
+
         <img id="qrCode" src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://lalamove-driver.onelink.me/zfl4/4jx5ebef?u=2&rc=RUPLQ4&fromShare=1&refer_platform=app" alt="QR Code">
 
         <a class="btn" href="https://lalamove-driver.onelink.me/zfl4/4jx5ebef?u=2&rc=RUPLQ4&fromShare=1&refer_platform=app">Abrir no Lalamove</a>
@@ -167,4 +190,3 @@
 </body>
 
 </html>
-
